@@ -1,14 +1,10 @@
-import Head from "next/head";
 import { HomeContainer } from "../containers";
+import { Layout } from "../components";
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Iqbal Fasri</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Layout>
       <HomeContainer />
-    </div>
+    </Layout>
   );
 }
