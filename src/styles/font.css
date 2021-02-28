@@ -1,7 +1,1 @@
-@font-face {
-  font-family: "MonumentExtended-Regular";
-  src: url("../../public/assets/fonts/MonumentExtended-Regular.woff2");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
