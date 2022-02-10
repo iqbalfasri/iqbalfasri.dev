@@ -49,6 +49,17 @@ export default function HomeContainer() {
             </a>
           </Link>
         </div>
+
+        <div className="max-w-sm mx-auto text-center mt-4">
+          <Link href="https://docs.iqbalfasri.dev/" passHref>
+            <a
+              target="__blank"
+              className="mx-1 md:mx-2 py-1 px-2 rounded bg-gray-600 hover:bg-gray-800 text-white"
+            >
+              Dokumentasi Pribadi
+            </a>
+          </Link>
+        </div>
       </div>
     </section>
   );
